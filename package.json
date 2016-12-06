@@ -3,12 +3,12 @@
     "displayName": "Minitab",
     "description": "Syntax Highlighting for Minitab Command Language",
     "icon": "images/terminal-icon.png",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "dbgriffith01",
     "galleryBanner": {
-		"color": "#4eaff8",
-		"theme": "dark"
-	},
+        "color": "#4eaff8",
+        "theme": "dark"
+    },
     "engines": {
         "vscode": "^1.5.0"
     },
@@ -17,17 +17,27 @@
         "Snippets"
     ],
     "contributes": {
-        "languages": [{
-            "id": "minitab",
-            "aliases": ["Minitab", "minitab"],
-            "extensions": [".mtb",".mac"],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "minitab",
-            "scopeName": "source.minitab",
-            "path": "./syntaxes/minitab.tmLanguage"
-        }],
+        "languages": [
+            {
+                "id": "minitab",
+                "aliases": [
+                    "Minitab",
+                    "minitab"
+                ],
+                "extensions": [
+                    ".mtb",
+                    ".mac"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "minitab",
+                "scopeName": "source.minitab",
+                "path": "./syntaxes/minitab.tmLanguage"
+            }
+        ],
         "snippets": [
             {
                 "language": "minitab",
