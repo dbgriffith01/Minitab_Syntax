@@ -1,1 +1,6 @@
-# Minitab_Syntax
+# Minitab Language
+
+
+
+
+
