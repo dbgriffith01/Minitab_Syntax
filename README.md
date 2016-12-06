@@ -1,0 +1,1 @@
+# Minitab_Syntax
