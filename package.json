@@ -2,8 +2,21 @@
     "name": "minitab",
     "displayName": "Minitab",
     "description": "Syntax Highlighting for Minitab Command Language",
-    "version": "0.0.4",
+    "version": "0.0.6",
+    "icon": "images/terminal-icon.png",
     "publisher": "dbgriffith01",
+    "galleryBanner": {
+        "color": "#4eaff8",
+        "theme": "dark"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/dbgriffith01/Minitab_Syntax.git"
+    },
+    "bugs": {
+        "url": "https://github.com/dbgriffith01/Minitab_Syntax/issues",
+        "email": "dbgriffith01@gmail.com"
+    },
     "engines": {
         "vscode": "^1.5.0"
     },
