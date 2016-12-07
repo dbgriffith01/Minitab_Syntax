@@ -21,6 +21,38 @@
 		</dict>
 		<dict>
 			<key>comment</key>
+			<string>Macro identifiers</string>
+			<key>match</key>
+			<string>\b(macro|gmacro|endmacro)\b</string>
+			<key>name</key>
+			<string>support.class.minitab</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Local Macro keywords</string>
+			<key>match</key>
+			<string>\b(mcolumn|mconstant|mfree|mmatrix)\b</string>
+			<key>name</key>
+			<string>storage.type.minitab</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>General Keywords</string>
+			<key>match</key>
+			<string>\b(mreset|brief)\b</string>
+			<key>name</key>
+			<string>variable.language.minitab</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>main commands</string>
+			<key>match</key>
+			<string>^\s*(?i:(AASA\w*|ABSO\w*|ACF\w*|ACOS\w*|ADD\w*|ALTT\w*|ANCO\w*|ANOM\w*|ANOV\w*|ANTI\w*|ARDE\w*|AREA\w*|ARGR\w*|ARIM\w*|ASIN\w*|ATAN\w*|ATGA\w*|AXIS\w*|BASE\w*|BBDE\w*|BCAP\w*|BFIT\w*|BLOG\w*|BOXC\w*|BOXP\w*|BREA\w*|BREG\w*|BRIE\w*|BUBB\w*|BWCA\w*|BWCH\w*|BWSI\w*|CA\w*|CALL\w*|CAPA\w*|CCDE\w*|CCF\w*|CCHA\w*|CD\w*|CDF\w*|CENT\w*|CFAU\w*|CFMA\w*|CFNO\w*|CFOR\w*|CHAR\w*|CHIS\w*|CLUO\w*|CLUV\w*|CODE\w*|COMP\w*|CONC\w*|CONN\w*|CONV\w*|COPY\w*|CORR\w*|COS\w*|COUN\w*|COVA\w*|CPLO\w*|CTAB\w*|CUSU\w*|DATA\w*|DATE\w*|DCAP\w*|DEBU\w*|DECO\w*|DEFA\w*|DEFI\w*|DEFT\w*|DELE\w*|DES\w*|DESC\w*|DIAG\w*|DIFF\w*|DIR\w*|DISC\w*|DIVI\w*|DOTP\w*|DPLO\w*|DROU\w*|DSET\w*|DTES\w*|DTYP\w*|ECDF\w*|ECHO\w*|EIGE\w*|ELLI\w*|ERAS\w*|ETES\w*|EVDE\w*|EWMA\w*|EXEC\w*|EXIT\w*|EXP\w*|FACP\w*|FACT\w*|FDAT\w*|FDES\w*|FFAC\w*|FFCU\w*|FFDE\w*|FFIN\w*|FFMA\w*|FISH\w*|FITL\w*|FNUM\w*|FORM\w*|FRIE\w*|FTEX\w*|GAGE\w*|GAWO\w*|GCHA\w*|GENV\w*|GFAC\w*|GLM\w*|GOTO\w*|GPAU\w*|GPRI\w*|GPRO\w*|GRID\w*|GSAV\w*|GSCA\w*|GSTD\w*|GSUM\w*|GVIE\w*|GZLM\w*|HEIG\w*|HELP\w*|HIST\w*|ICHA\w*|IDID\w*|IDOV\w*|IMRC\w*|INDI\w*|INDP\w*|INFO\w*|INSE\w*|INTE\w*|INTP\w*|INVC\w*|INVE\w*|ITEM\w*|IW\w*|JOHN\w*|KKCA\w*|KKNA\w*|KKSE\w*|KMEA\w*|KRUS\w*|LAG\w*|LAYO\w*|LEGE\w*|LET\w*|LINE\w*|LN\w*|LNGA\w*|LOGT\w*|LONG\w*|LOWE\w*|LPLO\w*|LREG\w*|LTAB\w*|LTES\w*|LVAL\w*|MA\w*|MACH\w*|MACR\w*|MAIN\w*|MANN\w*|MANO\w*|MARG\w*|MARK\w*|MATR\w*|MAXI\w*|MCA\w*|MCAP\w*|MCOL\w*|MCON\w*|MEAN\w*|MEDI\w*|MERG\w*|MESH\w*|MEWM\w*|MFFC\w*|MFRE\w*|MGAG\w*|MINI\w*|MIXC\w*|MIXO\w*|MIXR\w*|MIXS\w*|MLAB\w*|MMAT\w*|MMOP\w*|MNCA\w*|MOOD\w*|MOVE\w*|MPLO\w*|MPOL\w*|MRCH\w*|MRES\w*|MROP\w*|MSUR\w*|MTIT\w*|MTSP\w*|MTYP\w*|MULT\w*|MVAR\w*|NAME\w*|NEST\w*|NEW\w*|NEXT\w*|NGRO\w*|NLIN\w*|NLOG\w*|NMIS\w*|NNCA\w*|NNSI\w*|NOEC\w*|NOJO\w*|NOLE\w*|NOOU\w*|NOPL\w*|NORM\w*|NOTE\w*|NOTI\w*|NPCH\w*|NSCO\w*|NTGA\w*|NUME\w*|OADE\w*|OAPR\w*|ODBC\w*|OH\w*|OLOG\w*|ONER\w*|ONET\w*|ONEV\w*|ONEW\w*|ONEZ\w*|OPTD\w*|OREG\w*|OUTF\w*|OUTL\w*|OVER\w*|OW\w*|PACF\w*|PAIR\w*|PARE\w*|PARP\w*|PARS\w*|PAUS\w*|PBDE\w*|PCA\w*|PCAP\w*|PCHA\w*|PDF\w*|PDIA\w*|PGOO\w*|PGRO\w*|PIEC\w*|PLOT\w*|PLS\w*|PLTX\w*|PLUG\w*|PONE\w*|POWE\w*|PPLO\w*|PPRI\w*|PRED\w*|PREP\w*|PRIN\w*|PROB\w*|PTIL\w*|PTWO\w*|RAIS\w*|RAND\w*|RANG\w*|RANK\w*|RCHA\w*|RCOU\w*|RDID\w*|RDOV\w*|READ\w*|RECT\w*|REFE\w*|REGR\w*|REST\w*|RESU\w*|RETR\w*|RETU\w*|RFOR\w*|RLIN\w*|RMAX\w*|RMCO\w*|RMEA\w*|RMED\w*|RMER\w*|RMIN\w*|RN\w*|RNGA\w*|RNMI\w*|ROBU\w*|ROOT\w*|ROWT\w*|RRAN\w*|RREG\w*|RSCO\w*|RSMO\w*|RSRE\w*|RSSQ\w*|RSSU\w*|RSTD\w*|RSUM\w*|RUNC\w*|RUNS\w*|SAMP\w*|SAVE\w*|SCDE\w*|SCHA\w*|SES\w*|SET\w*|SHEL\w*|SIGN\w*|SIMP\w*|SINT\w*|SIXP\w*|SLDE\w*|SORT\w*|SPCO\w*|SPDE\w*|SPFA\w*|SPLI\w*|SPSI\w*|SQRT\w*|SSCI\w*|SSQ\w*|SSTI\w*|SSWO\w*|STAC\w*|STAT\w*|STDE\w*|STEM\w*|STES\w*|STOP\w*|SUBS\w*|SUBT\w*|SUM\w*|SURF\w*|SYMB\w*|SYMP\w*|TABL\w*|TALL\w*|TCHA\w*|TCHI\w*|TEXT\w*|TOGA\w*|TOLI\w*|TOST\w*|TPLO\w*|TRAC\w*|TRAN\w*|TREN\w*|TSET\w*|TSGV\w*|TSPL\w*|TSQU\w*|TSWI\w*|TWAR\w*|TWOR\w*|TWOS\w*|TWOT\w*|TWOV\w*|TYPE\w*|UCHA\w*|UDIA\w*|UPRI\w*|VART\w*|VASA\w*|VFAC\w*|VMAS\w*|VORD\w*|WALS\w*|WDIF\w*|WHIL\w*|WIDT\w*|WINT\w*|WOPE\w*|WORK\w*|WPRE\w*|WRIT\w*|WSAV\w*|WSLO\w*|WSTA\w*|WTES\w*|XBAR\w*|XDAC\w*|XDAD\w*|XDDE\w*|XDEX\w*|XDGE\w*|XDRE\w*|XPPO\w*|XRCH\w*|XSCH\w*|XTAB\w*|XWOR\w*|YESN\w*|ZMRC\w*|ZONE))</string>
+			<key>name</key>
+			<string>support.class.minitab</string>
+		</dict>
+		<dict>
+			<key>comment</key>
 			<string>Another test</string>
 			<key>match</key>
 			<string>\b(do|if|then|else|enddo|elseif|endif|while|endwhile)\b</string>
@@ -32,14 +64,6 @@
 			<string>Command</string>
 			<key>match</key>
 			<string>(^\w+)</string>
-			<key>name</key>
-			<string>support.class.minitab</string>
-		</dict>
-		<dict>
-			<key>comment</key>
-			<string>subcommand</string>
-			<key>match</key>
-			<string>^\s\s[\w\-]+</string>
 			<key>name</key>
 			<string>support.function.minitab</string>
 		</dict>
@@ -81,7 +105,7 @@
 			<key>match</key>
 			<string>\;|\.</string>
 			<key>name</key>
-			<string>support.other.minitab</string>
+			<string>constant.character.minitab</string>
 		</dict>
 		<dict>
 			<key>comment</key>

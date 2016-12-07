@@ -23,5 +23,17 @@
 			"endif"
 		],
 		"description": "If statement"
+	},
+	"gmacro": {
+		"prefix": "gmacro",
+		"body": "\ngmacro\n${1:Name}\n\n#################################\n# Macro Name: $1\n# Created By:\n# Details:\n#################################\n\nmreset # Ensures Minitab environment is returned to pre-macro settings\n\n\n\n\nendmacro\n",
+		"description": "Global Macro Template",
+		"scope": "source.minitab"
+	},
+	"macro": {
+		"prefix": "macro",
+		"body": "\nmacro\n${1:Name}\n\n#################################\n# Macro Name: $1\n# Created By:\n# Details:\n#################################\n\nmcolumn\nmconstant\nmreset # Ensures Minitab environment is returned to pre-macro settings\n\n\n\n\nendmacro\n",
+		"description": "Local Macro Template",
+		"scope": "source.minitab"
 	}
 }
