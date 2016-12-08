@@ -2,13 +2,14 @@
     "name": "minitab",
     "displayName": "Minitab",
     "description": "Syntax Highlighting for Minitab Command Language",
-    "version": "0.0.7",
+    "version": "0.0.8",
     "icon": "images/terminal-icon.png",
     "publisher": "dbgriffith01",
     "galleryBanner": {
         "color": "#4eaff8",
         "theme": "dark"
     },
+    "preview": true,
     "repository": {
         "type": "git",
         "url": "https://github.com/dbgriffith01/Minitab_Syntax.git"
