@@ -2,7 +2,7 @@
     "name": "minitab",
     "displayName": "Minitab",
     "description": "Syntax Highlighting for Minitab Command Language",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "icon": "images/terminal-icon.png",
     "publisher": "dbgriffith01",
     "galleryBanner": {
