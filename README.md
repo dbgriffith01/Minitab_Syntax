@@ -4,7 +4,7 @@
 
 Bring Color to Minitab Command Language
 
-![Syntax Highlights](https://raw.githubusercontent.com/dbgriffith01/Minitab_Syntax/master/images/syntax_highlight.png)
+<img src="https://raw.githubusercontent.com/dbgriffith01/Minitab_Syntax/master/images/syntax_highlight.png">
 
 
 
